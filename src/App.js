@@ -50,28 +50,12 @@ export default class App extends Component {
                 {/*<Header navigator={this.navigate}/>*/}
                 <header className="App-header">
                     {/*Dropdown Structure*/}
-                    <ul id="dropdown1" className="dropdown-content">
-                        <li><a href={""}><h5>Our Brunch</h5></a></li>
-                        <li className={"divider"}> </li>
-                        {/*<li><a href={"http://www.cottonwood.triodining.com/lunch"}>Trio Lunch</a></li>*/}
-                        <li><a href={"http://www.cottonwood.triodining.com/dinner"}>Trio Dinner</a></li>
-                        <li><a href={"http://www.cottonwood.triodining.com/dessert"}>Trio Desserts</a></li>
-                    </ul>
                     <nav className={"nav-wrapper"}>
                         <div className={"nav-contents"}>
                             {/*logo redirects to landing*/}
                             <button id={'landing'} onClick={this.navigateToLanding}><img src={logo} className="App-logo" alt="logo" /></button>
                             <ul className="right hide-on -med-and-down">
-                                {/*Link to People page*/}
-                                <li><button onClick={this.navigateToPeople}><h5>The People</h5></button></li>
-                                {/*Link to Drinks page*/}
-                                <li><button onClick={this.navigateToDrinks}><h5>The Drinks</h5></button></li>
-                                {/*Dropdown Trigger*/}
-                                <li><button className="dropdown-button" data-activates="dropdown1"><h5>The Food</h5></button></li>
-                                <li><span><h5>||</h5></span></li>
-                                {/*Link to Locaiton page1q*/}
-                                <li><button onClick={this.navigateToLocation} ><h5>Find Us</h5></button></li>
-
+                                <li><h6>louisblebohec@gmail.com</h6></li>
                             </ul>
                         </div>
 
