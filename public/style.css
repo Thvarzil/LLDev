@@ -53,7 +53,7 @@ body {
 
 .frosted{
     -webkit-backdrop-filter: blur(10px);
-    margin: 100px auto;
+    margin:  20%;
     position: relative;
     padding: 10px 5px;
     background: hsla(0,0%,100%,.6);
