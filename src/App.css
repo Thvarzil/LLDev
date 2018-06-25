@@ -32,6 +32,23 @@
     margin-right: 20px;
 }
 
+.section-title{
+    color: white;
+}
+
+.divider{
+    width: 100%;
+    border-bottom: white solid 2px;
+    
+    margin-bottom: 20px;
+}
+
+.resume-img{
+    width:100%;
+    border-radius: 15px;
+    height: auto;
+}
+
 .nav-contents{
     bottom: 0;
 }

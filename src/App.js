@@ -2,7 +2,10 @@ import React, {Component} from 'react';
 import './App.css';
 import logo from "./myLogo.png";
 import Footer from "./Components/Footer";
-import Master from "./Components/Master/Master";
+// import Master from "./Components/Master/Master";
+import Resume from "./Components/Resume/Resume";
+import Bio from "./Components/Bio/Bio";
+import Projects from "./Components/Projects/Projects";
 
 
 export default class App extends Component {
@@ -69,8 +72,12 @@ export default class App extends Component {
 
                     </nav>
                 </header>
-                <Master page={this.state.page}/>
+                {/* <Master page={this.state.page}/> */}
+                <Bio />
+                <Resume/>
+                <Projects/>
                 <Footer/>
+
             </div>
 
         );
