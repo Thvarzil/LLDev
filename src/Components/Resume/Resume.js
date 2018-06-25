@@ -13,6 +13,8 @@ export default class Resume extends Component{
                 <div className="divider">
                 </div>
 
+                {/* Embedding resume as a .jpg instead of PDF to avoid PDF embed issues.
+                .JPG is more malleable with CSS and easier to manipulate. */}
                 <img src={resume} className="resume-img" alt="Resume"/>
             </div>
         );

@@ -1,4 +1,5 @@
-
+// List of project objects containing all info content for Project components. 
+// Separated from Component file for cleanliness of code.
 
 var projects = [
     {
