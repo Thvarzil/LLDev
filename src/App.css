@@ -28,6 +28,10 @@
     height: 100%;
 }
 
+.nav-wrapper ul li{
+    margin-right: 20px;
+}
+
 .nav-contents{
     bottom: 0;
 }
@@ -57,6 +61,14 @@
     width: 170px !important;
     background-color: #292929;
     overflow-y: -webkit-paged-y;
+    z-index: 1000000;
+}
+
+.section{
+    height: 300px;
+    margin: 25px;
+    background: #eff4fc;
+
 }
 
 #dropdown1 li{

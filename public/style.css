@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 nav ul li{
-    position: relative;
+    position: absolute;
     top: 90px;
     right: -10px;
 }
@@ -37,6 +37,15 @@ body {
 
 .main-content {
     margin: 10px 10%;
+}
+
+.dropdown-trigger{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.app-header{
+    height: 10%;
 }
 
 .frosted{

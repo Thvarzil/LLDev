@@ -60,7 +60,7 @@ export default class App extends Component {
                     <nav className={"nav-wrapper"}>
                         <div className={"nav-contents"}>
                             {/*logo opens dropdown navigator*/}
-                            <button className="dropdown-button" data-activates="dropdown1"><img src={logo} className="App-logo" alt="logo" /></button>
+                            <img src={logo} className="App-logo" alt="logo" />
                             
                             <ul className="right hide-on -med-and-down">
                                 <li><h6>(971)303-6117 || louisblebohec@gmail.com</h6></li>
