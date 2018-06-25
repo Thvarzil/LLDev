@@ -12,7 +12,7 @@ export default class Projects extends Component{
         // _.map is the underscore function used to loop-render HTML with different content
         return _.map(projects, (list) =>{
             return(
-                <div className="frosted main-content">
+                <div className="frosted content-panel" key={list.key}>
                     <h5>{list.title}</h5>
                     <p>{list.description}</p>
                     <h6><a href={list.live}>Live</a> || <a href={list.repo}>Repo</a></h6>

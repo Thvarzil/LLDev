@@ -88,6 +88,10 @@
 
 }
 
+.content-panel{
+    padding: 25px;
+}
+
 #dropdown1 li{
     margin-left: 20px;
     color: white !important;
