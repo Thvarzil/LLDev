@@ -1,8 +1,14 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .main-content{
+        padding: 0;
+    }
+}
 
 
 html, body, .glass {
@@ -53,7 +59,7 @@ body {
 
 .frosted{
     -webkit-backdrop-filter: blur(10px);
-    margin:  20%;
+    margin: 100px auto;
     position: relative;
     padding: 10px 5px;
     background: hsla(0,0%,100%,.6);
